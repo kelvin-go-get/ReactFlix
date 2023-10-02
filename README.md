@@ -17,6 +17,8 @@ To run this application locally, follow these steps:
    ```bash
    git clone https://github.com/kelvin-go-get/ReactFlix.git
 
+   ```
+
 2. Navigate to the project directory:
 
 cd ReactFlix
@@ -25,11 +27,9 @@ cd ReactFlix
 
 npm install
 
-
 4. Start the development server:
 
 npm start
-
 
 5. Open your browser and visit http://localhost:3000 to view the ReactFlix application.
 
@@ -39,7 +39,6 @@ React
 OMDB API
 Placeholder Image Service
 
-
 Usage
 
 1.Upon loading the application, you'll see a default set of movies for the year 2023.
@@ -47,7 +46,6 @@ Usage
 3.Click on the search icon or press Enter to initiate the search.
 4.Explore the movie cards that appear below the search bar.
 5.For each movie, view details such as the release year, poster image, and movie type.
-
 
 Contributing
 
@@ -59,10 +57,8 @@ If you'd like to contribute to ReactFlix, please follow these steps:
 4.Push to the branch: git push origin feature/your-feature-name.
 5.Submit a pull request.
 
-
 Credits
-Created with ❤️ by [Kelvin Njuir]
-
+Created with ❤️ by Kelvin Njuiri
 
 License
 This project is licensed under the MIT License.
