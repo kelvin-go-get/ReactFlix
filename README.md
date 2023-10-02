@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# ReactFlix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to ReactFlix, your go-to place for discovering and exploring movies! This React application leverages the OMDB API to fetch and display movie information. Users can search for movies and view details through an intuitive interface.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Dynamic Search**: Easily search for movies by entering keywords in the search bar.
+- **Movie Cards**: Each movie is presented in a clean and organized card format, displaying essential information.
+- **Responsive Design**: Enjoy a seamless experience across various devices.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run this application locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone this repository to your local machine:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/kelvin-go-get/ReactFlix.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
 
-### `npm run build`
+cd ReactFlix
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install the dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+4. Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Open your browser and visit http://localhost:3000 to view the ReactFlix application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Dependencies
 
-## Learn More
+React
+OMDB API
+Placeholder Image Service
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Usage
 
-### Code Splitting
+1.Upon loading the application, you'll see a default set of movies for the year 2023.
+2.Use the search bar to enter keywords and discover new movies.
+3.Click on the search icon or press Enter to initiate the search.
+4.Explore the movie cards that appear below the search bar.
+5.For each movie, view details such as the release year, poster image, and movie type.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you'd like to contribute to ReactFlix, please follow these steps:
 
-### Making a Progressive Web App
+1.Fork the repository.
+2.Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name.
+3.Commit your changes: git commit -m 'Add a new feature'.
+4.Push to the branch: git push origin feature/your-feature-name.
+5.Submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+Credits
+Created with ❤️ by [Kelvin Njuir]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+This project is licensed under the MIT License.

@@ -17,7 +17,7 @@ const [searchTerm, setSearchTerm] = useState('')
   }
 
   useEffect(() => {
-searchMovies('Spiderman');
+searchMovies('2023');
   }, []);
 
   return (
